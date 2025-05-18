@@ -6,8 +6,6 @@
 
 > **Say hello to your terminal — and it finally answers.**
 
----
-
 ## What is `hello`?
 
 `hello` is the tiniest conversation-starter for your command line.  
@@ -16,21 +14,17 @@ Type `hello`, hit ⏎, and the shell greets you back with the classic `Hello, wo
 Nothing to configure, nothing to install at runtime—just a single, static,
 ≈ 1 MiB executable that proves your terminal is alive (and friendly).
 
----
-
 ## Why bother?
 
 * On a fresh Windows box, `hello` used to be a dead end—**now it talks**.  
 * The quickest smoke-test for a new shell, VM, container or CI runner.  
-* Living “Hello, world!” demo that shows **Go + GoReleaser + winget** in action.  
-* It makes you smile.  Sometimes that’s enough.
-
----
+* Living "Hello, world!" demo that shows **Go + GoReleaser + winget** in action.  
+* It makes you smile.  Sometimes that's enough.
 
 ## Features
 
-| &nbsp; | &nbsp; |
-|---|---|
+| Feature | Description |
+|---------|-------------|
 | ⚡ **Instant install** | `winget install hello` (Windows 10/11) — done in seconds. |
 | 🪶 **Feather-weight** | ~1 MiB static binary; no DLLs, no .NET, no Python. |
 | 🔌 **Zero dependencies** | Built with `CGO_ENABLED=0`; runs on vanilla PowerShell / CMD. |
@@ -39,8 +33,6 @@ Nothing to configure, nothing to install at runtime—just a single, static,
 | ❤️ **Open Source** | MIT licence—hack away or reuse in your own demos. |
 
 > *Road-map: emoji / colour output, `--name` flag, self-update, Scoop & Chocolatey taps…*
-
----
 
 ## Quick Start
 
@@ -61,8 +53,6 @@ hello
 Or grab a pre-built zip from the
 [Releases page](https://github.com/dongzhenye/hello/releases).
 
----
-
 ## Why Go?
 
 | Aspect | Go (this project) | Rust | .NET AOT | C / C++ | Node (pkg) |
@@ -75,8 +65,6 @@ Or grab a pre-built zip from the
 
 Go hits the sweet spot of **tiny output, trivial cross-compile and fast iteration**,
 with an ecosystem tailor-made for CLI shipping.
-
----
 
 ## Build from Source
 
@@ -101,14 +89,10 @@ go build -o hello.exe
 .\hello.exe
 ```
 
----
-
 ## Contributing
 
 Bug reports, feature requests and PRs are welcome!  
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
-
----
 
 ## License
 
