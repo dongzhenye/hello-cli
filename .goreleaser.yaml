@@ -6,16 +6,29 @@
 # yaml-language-server: $schema=https://goreleaser.com/static/schema.json
 # vim: set ts=2 sw=2 tw=0 fo=cnqoj
 
+project_name: hello
+
 builds:
   - id: win
     main: .
+    binary: hello
     goos: [windows]
     goarch: [amd64, arm64]
     env: [CGO_ENABLED=0]
     ldflags: ["-s -w"]
 
 archives:
-  - format: zip
+  - id: windows-zip
+    builds: [win]
+    format: zip
+    wrap_in_directory: false
+    files:
+      - ./{{ .ProjectName }}.exe
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+
+  - id: windows-exe
+    builds: [win]
+    format: binary
     name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
 
 checksum:
