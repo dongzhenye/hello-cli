@@ -20,15 +20,6 @@ builds:
     ldflags: ["-s -w"]
 
 archives:
-  # 1. Clean Zip
-  - id: windows-zip
-    ids: [win]
-    formats: zip
-    wrap_in_directory: false
-    files: none
-    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
-
-  # 2. Exe only
   - id: windows-exe
     ids: [win]
     format: binary
