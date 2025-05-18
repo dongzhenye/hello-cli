@@ -22,8 +22,6 @@ archives:
     builds: [win]
     format: zip
     wrap_in_directory: false
-    files:
-      - ./{{ .ProjectName }}.exe
     name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
 
   - id: windows-exe
