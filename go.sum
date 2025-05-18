@@ -1,0 +1,3 @@
+# This is an empty go.sum file.
+# It is created to satisfy GitHub Actions cache requirements.
+# The file will be populated automatically when dependencies are added. 
