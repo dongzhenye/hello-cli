@@ -1,0 +1,26 @@
+# 二进制文件
+/hello.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go 特定文件
+*.test
+*.out
+go.work
+
+# GoReleaser 输出目录
+dist/
+
+# IDE 和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
