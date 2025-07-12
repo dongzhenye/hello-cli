@@ -1,0 +1,32 @@
+PackageIdentifier: dongzhenye.hello-cli
+PackageVersion: 0.1.0
+PackageLocale: en-US
+Publisher: Zhenye Dong
+PublisherUrl: https://github.com/dongzhenye
+PublisherSupportUrl: https://github.com/dongzhenye/hello-cli/issues
+Author: Zhenye Dong
+PackageName: Hello CLI
+PackageUrl: https://github.com/dongzhenye/hello-cli
+License: MIT
+LicenseUrl: https://github.com/dongzhenye/hello-cli/blob/main/LICENSE
+Copyright: Copyright (c) 2025 Zhenye Dong
+ShortDescription: Say hello to your terminal — and it finally answers
+Description: |
+  Hello CLI is the tiniest conversation-starter for your command line.
+  Type 'hello', hit Enter, and the shell greets you back with the classic 'Hello, world!'
+  
+  Nothing to configure, nothing to install at runtime—just a single, static,
+  ~1 MiB executable that proves your terminal is alive (and friendly).
+Tags:
+  - cli
+  - command-line
+  - hello-world
+  - terminal
+  - developer-tools
+  - golang
+  - windows
+ReleaseNotes: |
+  - Remove zip output to avoid endless bugs
+ReleaseNotesUrl: https://github.com/dongzhenye/hello-cli/releases/tag/v0.1.0
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
