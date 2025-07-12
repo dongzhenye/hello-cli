@@ -31,4 +31,4 @@ checksum:
 release:
   github:
     owner: dongzhenye
-    name: hello
+    name: hello-cli

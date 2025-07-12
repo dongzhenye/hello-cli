@@ -1,8 +1,8 @@
 # hello
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/dongzhenye/hello)](https://goreportcard.com/report/github.com/dongzhenye/hello)
-[![Release](https://img.shields.io/github/v/release/dongzhenye/hello?include_prereleases&sort=semver)](https://github.com/dongzhenye/hello/releases/latest)
-[![License](https://img.shields.io/github/license/dongzhenye/hello)](./LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dongzhenye/hello-cli)](https://goreportcard.com/report/github.com/dongzhenye/hello-cli)
+[![Release](https://img.shields.io/github/v/release/dongzhenye/hello-cli?include_prereleases&sort=semver)](https://github.com/dongzhenye/hello-cli/releases/latest)
+[![License](https://img.shields.io/github/license/dongzhenye/hello-cli)](./LICENSE)
 
 > **Say hello to your terminal — and it finally answers.**
 
@@ -46,12 +46,12 @@ hello
 ### macOS / Linux
 
 ```bash
-go install github.com/dongzhenye/hello@latest
+go install github.com/dongzhenye/hello-cli@latest
 hello
 ```
 
 Or grab a pre-built zip from the
-[Releases page](https://github.com/dongzhenye/hello/releases).
+[Releases page](https://github.com/dongzhenye/hello-cli/releases).
 
 ## Why Go?
 
@@ -72,8 +72,8 @@ with an ecosystem tailor-made for CLI shipping.
 
 ```bash
 brew install go git goreleaser gh upx
-git clone https://github.com/dongzhenye/hello
-cd hello
+git clone https://github.com/dongzhenye/hello-cli
+cd hello-cli
 go build -o hello
 ./hello
 ```
@@ -83,8 +83,8 @@ go build -o hello
 ```powershell
 winget install -e --id Git.Git
 winget install -e --id GoReleaser.GoReleaser
-git clone https://github.com/dongzhenye/hello
-cd hello
+git clone https://github.com/dongzhenye/hello-cli
+cd hello-cli
 go build -o hello.exe
 .\hello.exe
 ```
